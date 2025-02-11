@@ -1,0 +1,135 @@
+html,
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+position: relative;
+font-family: 'Poppins', sans-serif; /* Set default font */
+}
+
+body {
+background: #eee;
+color: #000;
+margin: 0;
+padding: 0;
+}
+
+.footer{
+    margin-top: 6px;
+}
+
+.swiper {
+width: 100%;
+height: calc(100% - 60px);
+}
+
+.bg-custom{
+    background: #d1dce7;
+}
+.swiper-pagination {
+position: absolute;
+bottom: 10px;
+left: 0;
+width: 100%;
+text-align: center;
+z-index: 10;
+}
+.footer {
+    display: flex;
+    justify-content: center; /* Center the navigation bar */
+    align-items: center; /* Center items vertically */
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center; /* Center all nav items inside */
+    align-items: center; /* Align items in the center */
+    gap: 20px; /* Add space between nav items */
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column; /* Stack the icon and text vertically */
+    align-items: center; /* Center align the icon and text */
+    text-align: center; /* Ensure text is centered */
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column; /* Stack the icon and text */
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Remove underline */
+    color: white; /* Ensure text is white */
+}
+
+
+
+p{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.offer{
+    margin-top: -19px;
+}
+    
+.reviews .reviewer {
+    font-size: 20px;
+}
+
+.reviews p {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: justify;
+    letter-spacing: 0.2px; /* Adjust the spacing as needed */
+}
+
+
+.reviews img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: -2px;
+}
+
+.reviews .rating{
+    margin-top: -10px;
+}
+
+/* Style for Swiper pagination bullets */
+.swiper-pagination-bullet {
+    background-color:  #6c757d;
+    opacity: 0.5; /* Optional: Make the bullets semi-transparent */
+}
+
+/* Style for the active bullet */
+.swiper-pagination-bullet-active {
+    background-color: #0d6efd; /* Active bullet color */
+    opacity: 1; /* Fully opaque for active bullet */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-top: -2px;
+} 
+
+.profile{
+    justify-content: left;
+    align-items: left;
+}
+
+.booking{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.modal .edit-profile{
+    align-items: center;
+}
+
